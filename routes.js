@@ -10,7 +10,7 @@ module.exports = function(app){
     app.route('/sigin').post(AuthController.sigIn)
 
     app.route('/').get(instgramList.index)
-    app.route('/users').get(auth.isAuth,instgramList.users)
+    // app.route('/users').get(auth.isAuth,instgramList.users)
 
     app.route('/posts').post(auth.isAuth,PostingController.create)
     app.route('/posts').get(auth.isAuth,PostingController.getPosts)
