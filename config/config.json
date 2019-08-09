@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "instagram_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "soerkdblrsfsdu",
+    "password": "a1bf7f568444fbda93e5ae9c964997d39d5eeac65aafb181f4faeb80b17d2df3",
+    "database": "ddquruqmegln3g",
+    "host": "ec2-107-22-222-161.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  }
+}

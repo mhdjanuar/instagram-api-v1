@@ -1,0 +1,32 @@
+{
+  "name": "instagram-api",
+  "version": "1.0.0",
+  "description": "this server for my instgram api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "mhdjanuar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "express-validator": "^6.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.6.5",
+    "node-fetch": "^2.6.0",
+    "redis": "^2.8.0",
+    "redis-server": "^1.2.2",
+    "sequelize": "^5.12.3",
+    "sequelize-cli": "^5.5.0",
+    "validator": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
