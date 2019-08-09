@@ -1,5 +1,4 @@
 const jwt = require('jsonwebtoken');
-// const connection = require('../conn');
 // const response = require('../res');
 const bcrypt = require('bcryptjs');
 const validator = require('validator');

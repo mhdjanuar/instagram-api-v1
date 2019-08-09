@@ -1,7 +1,6 @@
 'use strict'
 
 var response = require('../res');
-var connection = require('../conn');
 const models =  require('../models');
 const Op = require('sequelize').Op; 
 const fetch = require('node-fetch');
@@ -13,19 +12,19 @@ const fetch = require('node-fetch');
 //     console.log(err);
 // })
 
-exports.users = function(req, res){
-    const userId = req.user.id
+// exports.users = function(req, res){
+//     const userId = req.user.id
 
-    connection.query('SELECT * FROM users', function(error,rows,fields){
-        if(error){
-            console.log(error)
-        }
-        else{
-            // response.succses(rows, res)
-            res.send({'status':'succes','data':rows, user:userId})
-        }
-    })
-}
+//     connection.query('SELECT * FROM users', function(error,rows,fields){
+//         if(error){
+//             console.log(error)
+//         }
+//         else{
+//             // response.succses(rows, res)
+//             res.send({'status':'succes','data':rows, user:userId})
+//         }
+//     })
+// }
 
 exports.index = async function(req, res){
     response.succses("Hello from the Node JS RESTful side!", res)

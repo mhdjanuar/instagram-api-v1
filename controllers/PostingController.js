@@ -1,4 +1,3 @@
-const connection = require('../conn');
 const models =  require('../models');
 const Op = require('sequelize').Op; 
 
