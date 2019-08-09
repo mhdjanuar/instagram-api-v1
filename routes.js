@@ -6,8 +6,8 @@ module.exports = function(app){
     const PostingController = require('./controllers/PostingController');
     const auth = require('./middlware/auth');
 
-    app.route('/signup').post(AuthController.signUp)
-    app.route('/sigin').post(AuthController.sigIn)
+    // app.route('/signup').post(AuthController.signUp)
+    // app.route('/sigin').post(AuthController.sigIn)
 
     app.route('/').get(instgramList.index)
     app.route('/users').get(auth.isAuth,instgramList.users)
