@@ -10,8 +10,7 @@
   "author": "mhdjanuar",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^3.0.6",
-    "bcrypt-nodejs": "0.0.3",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
@@ -21,6 +20,7 @@
     "mysql": "^2.17.1",
     "mysql2": "^1.6.5",
     "node-fetch": "^2.6.0",
+    "pg": "^7.12.0",
     "redis": "^2.8.0",
     "redis-server": "^1.2.2",
     "sequelize": "^5.12.3",
@@ -30,7 +30,7 @@
   "devDependencies": {
     "nodemon": "^1.19.1"
   },
-  "engines": { 
-    "node": "10.15.3" 
- }
+  "engines": {
+    "node": "10.15.3"
+  }
 }
